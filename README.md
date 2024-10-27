@@ -16,60 +16,16 @@ Sri Lanka's "Aluth Gamak Aluth Ratak" program revitalizes rural areas by integra
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## About this Project
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Performance Agreement System, named "Aluth Gamak Aluth Ratak," designed to streamline the process of contracting with the 25 district secretariats across Sri Lanka. Each district secretariatsends quarterly reports to the Ministry detailing the tasks they can accomplish within a year, which are crucial for data gathering.
 
-## Learning Laravel
+The "Aluth Gamak Aluth Ratak" system addresses data management challenges, offering a dashboard for progress tracking, data sheets for detailed reporting, and messaging features for communication. User roles and permissions ensure secure access, with export options for PDF, CSV, and Excel formats.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+A significant enhancement is the inclusion of charts for each dataset in the data sheet, providing visual insights for trend analysis. These charts aid in analyzing quarter totals and percentages, enhancing decision-making. Challenges, including user usability and data integration, were mitigated through intuitive design and comprehensive training. The system's implementation has improved data accuracy, streamlined reporting, and enhanced progress monitoring, significantly boosting operational efficiency at the Ministry.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+The "Aluth Gamak Aluth Ratak" system represents a milestone in performance agreement management, offering robust data visualization tools and streamlined reporting processes. Its impact on operational effectiveness underscores its value in facilitating efficient communication and decision-making across district secretariats. This project has equipped me with valuable experience in system integration, user management, and data visualization, contributing to the Ministry's ongoing efforts to modernize and optimize its operations.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
->>>>>>> 19987bb (Updated Database with Source Code)
 # Aluth_Gamak_Aluth_Ratak-MOHA
 >>>>>>> 30b2163 (updated modifications)
 # Aluth_Gamak_Aluth_Ratak-MOHA
