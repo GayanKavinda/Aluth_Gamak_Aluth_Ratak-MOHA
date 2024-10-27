@@ -2,10 +2,7 @@
 # Aluth_Gamak_Aluth_Ratak-MOHA
 Sri Lanka's "Aluth Gamak Aluth Ratak" program revitalizes rural areas by integrating agriculture, infrastructure, and education. It enhances farmer resources, improves roads and irrigation, and invests in healthcare and education to build a skilled, healthy workforce, fostering economic diversification for a sustainable, prosperous future.
 =======
-<<<<<<< HEAD
-# Aluth_Gamak_Aluth_Ratak-MOHA
-Sri Lanka's "Aluth Gamak Aluth Ratak" program revitalizes rural areas by integrating agriculture, infrastructure, and education. It enhances farmer resources, improves roads and irrigation, and invests in healthcare and education to build a skilled, healthy workforce, fostering economic diversification for a sustainable, prosperous future.
-=======
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
