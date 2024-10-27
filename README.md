@@ -28,5 +28,3 @@ The "Aluth Gamak Aluth Ratak" system represents a milestone in performance agree
 
 # Aluth_Gamak_Aluth_Ratak-MOHA
 >>>>>>> 30b2163 (updated modifications)
-# Aluth_Gamak_Aluth_Ratak-MOHA
-# Aluth_Gamak_Aluth_Ratak-MOHA
