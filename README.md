@@ -31,6 +31,7 @@ Key features include:
 - **Data Sheet**: Allows for detailed reporting on various sectors.
 - **Messaging**: Send private or public messages between users.
 - **Data Visualization**: Provides charts for visual insights into data trends, including quarter totals and percentages.
+- **History Tracking**: Super admins can view the history of changes made by users across the system.
 
 ---
 
@@ -112,6 +113,7 @@ Set up the database:
 - **User Dashboard: Users can view reports, send messages, and track progress.**
 - **Forms: Complete and submit forms in various sectors.**
 - **Export Data: Download progress and reports in PDF, CSV, or Excel formats.**
+- **History Tracking: Super admins can see a log of changes made by users.**
 
 ---
 
