@@ -1,30 +1,119 @@
-<<<<<<< HEAD
-# Aluth_Gamak_Aluth_Ratak-MOHA
-Sri Lanka's "Aluth Gamak Aluth Ratak" program revitalizes rural areas by integrating agriculture, infrastructure, and education. It enhances farmer resources, improves roads and irrigation, and invests in healthcare and education to build a skilled, healthy workforce, fostering economic diversification for a sustainable, prosperous future.
-=======
+Aluth Gamak Aluth Ratak - MOHA
+Revitalizing Sri Lanka's Rural Areas
+The "Aluth Gamak Aluth Ratak" program, under the Ministry of Home Affairs (MOHA), is designed to improve rural areas in Sri Lanka by integrating agriculture, infrastructure, and education. This program aims to enhance resources for farmers, improve roads, irrigation, healthcare, and education, ultimately fostering a skilled and healthy workforce. The program supports economic diversification for a sustainable and prosperous future.
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+🛠 Technologies Used
+Laravel – PHP framework for building the web application
+Spatie – For user authentication and role management
+XAMPP – Local server environment
+PHPMyAdmin – Database management
+CSS/JS – Styling and client-side interactivity
+REST API – For communication between the client and server
+Figma – For wireframing and design
+Icons – Font Awesome and custom icons for enhanced UI
+📋 About This Project
+The Performance Agreement System ("Aluth Gamak Aluth Ratak") is built to streamline the process of contracting with the 25 district secretariats across Sri Lanka. Each district sends quarterly reports to the Ministry outlining the tasks they aim to complete, which are vital for data gathering and progress monitoring.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+The system offers a dashboard for tracking progress, data sheets for detailed reporting, and messaging features for communication between stakeholders. User roles and permissions ensure secure access to information. Additionally, the system supports exporting data in PDF, CSV, and Excel formats for easier analysis and reporting.
 
-## About Laravel
+Key features include:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects
+Dashboard: Provides an overview of key metrics and system usage.
+Data Sheet: Allows for detailed reporting on various sectors.
+Messaging: Send private or public messages between users.
+Data Visualization: Provides charts for visual insights into data trends, including quarter totals and percentages.
+🔧 Key Components
+Forms:
 
-## About this Project
+Economic Form
+Social Form
+Poverty Alleviation Form
+Health and Nutrition Form
+Agriculture Form
+Environment Form
+Government Revenue Form
+Public Expenditure Form
+Other Data Submission Form
+User Management:
 
-Performance Agreement System, named "Aluth Gamak Aluth Ratak," designed to streamline the process of contracting with the 25 district secretariats across Sri Lanka. Each district secretariatsends quarterly reports to the Ministry detailing the tasks they can accomplish within a year, which are crucial for data gathering.
+User Registration
+Role Management
+Permissions Assignment
+Permission List
+CRUD Operations:
 
-The "Aluth Gamak Aluth Ratak" system addresses data management challenges, offering a dashboard for progress tracking, data sheets for detailed reporting, and messaging features for communication. User roles and permissions ensure secure access, with export options for PDF, CSV, and Excel formats.
+Create, Read, Update, Delete operations are implemented for all forms and data.
+Data Export:
 
-A significant enhancement is the inclusion of charts for each dataset in the data sheet, providing visual insights for trend analysis. These charts aid in analyzing quarter totals and percentages, enhancing decision-making. Challenges, including user usability and data integration, were mitigated through intuitive design and comprehensive training. The system's implementation has improved data accuracy, streamlined reporting, and enhanced progress monitoring, significantly boosting operational efficiency at the Ministry.
+Users can download data in CSV, Excel, and PDF formats.
+Authentication:
 
-The "Aluth Gamak Aluth Ratak" system represents a milestone in performance agreement management, offering robust data visualization tools and streamlined reporting processes. Its impact on operational effectiveness underscores its value in facilitating efficient communication and decision-making across district secretariats. This project has equipped me with valuable experience in system integration, user management, and data visualization, contributing to the Ministry's ongoing efforts to modernize and optimize its operations.
+Laravel Auth used for user authentication and access control.
+Icons:
 
-# Aluth_Gamak_Aluth_Ratak-MOHA
->>>>>>> 30b2163 (updated modifications)
+Utilized throughout the UI for improved user experience.
+📦 Installation
+Follow the steps below to set up the project locally:
+
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/aluth-gamak-aluth-ratak.git
+Install dependencies: Navigate to the project folder and install the required dependencies:
+
+bash
+Copy code
+cd aluth-gamak-aluth-ratak
+composer install
+npm install
+Set up the .env file: Copy .env.example to .env:
+
+bash
+Copy code
+cp .env.example .env
+Generate the application key:
+
+bash
+Copy code
+php artisan key:generate
+Set up the database:
+
+Create a database in PHPMyAdmin (or any other MySQL tool).
+Update the .env file with your database credentials.
+Run migrations:
+
+bash
+Copy code
+php artisan migrate
+Start the development server:
+
+bash
+Copy code
+php artisan serve
+Visit the application at http://localhost:8000.
+
+🌐 Usage
+Admin Panel: Administrators can manage roles, permissions, and data.
+User Dashboard: Users can view reports, send messages, and track progress.
+Forms: Complete and submit forms in various sectors.
+Export Data: Download progress and reports in PDF, CSV, or Excel formats.
+📖 Documentation
+User Registration: New users can register and get access based on their roles.
+Roles & Permissions: Use Spatie’s role and permission system for access control.
+CRUD Operations: All forms allow users to create, read, update, and delete entries.
+Messaging: Secure messaging system with public and private message options.
+Data Visualization: Charts for easy analysis of trends and data.
+🛠 Contributing
+Fork the repository.
+Create a new branch for your feature or fix.
+Commit your changes.
+Push to your fork and create a pull request.
+📝 License
+This project is licensed under the MIT License.
+
+🤝 Acknowledgements
+Laravel: For providing an elegant framework for web applications.
+Spatie: For their role and permission package.
+XAMPP: Local development environment for testing.
+Figma: For the wireframing and UI design tool.
