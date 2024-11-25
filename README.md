@@ -74,62 +74,32 @@ Follow the steps below to set up the project locally:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/aluth-gamak-aluth-ratak.git
-Install dependencies: Navigate to the project folder and install the required dependencies:
 
-bash
-Copy code
-cd aluth-gamak-aluth-ratak
-composer install
-npm install
-Set up the .env file: Copy .env.example to .env:
+2. **Install dependencies: Navigate to the project folder and install the required dependencies:**:
+   ```bash
+   cd aluth-gamak-aluth-ratak
+   composer install
+   npm install
 
-bash
-Copy code
-cp .env.example .env
-Generate the application key:
+3. **Set up the .env file: Copy .env.example to .env**:
+   ```bash
+   cp .env.example .env
 
-bash
-Copy code
-php artisan key:generate
+4. **Generate the application key:**:
+   ```bash
+   php artisan key:generate
+
 Set up the database:
+- **Create a database in PHPMyAdmin (or any other MySQL tool).
+- **Update the .env file with your database credentials.
 
-Create a database in PHPMyAdmin (or any other MySQL tool).
-Update the .env file with your database credentials.
-Run migrations:
+5. **Run migrations**:
+   ```bash
+   php artisan migrate
 
-bash
-Copy code
-php artisan migrate
-Start the development server:
+6. **Start the development server**:
+   ```bash
+   php artisan serve
 
-bash
-Copy code
-php artisan serve
-Visit the application at http://localhost:8000.
-
-🌐 Usage
-Admin Panel: Administrators can manage roles, permissions, and data.
-User Dashboard: Users can view reports, send messages, and track progress.
-Forms: Complete and submit forms in various sectors.
-Export Data: Download progress and reports in PDF, CSV, or Excel formats.
-📖 Documentation
-User Registration: New users can register and get access based on their roles.
-Roles & Permissions: Use Spatie’s role and permission system for access control.
-CRUD Operations: All forms allow users to create, read, update, and delete entries.
-Messaging: Secure messaging system with public and private message options.
-Data Visualization: Charts for easy analysis of trends and data.
-🛠 Contributing
-Fork the repository.
-Create a new branch for your feature or fix.
-Commit your changes.
-Push to your fork and create a pull request.
-📝 License
-This project is licensed under the MIT License.
-
-🤝 Acknowledgements
-Laravel: For providing an elegant framework for web applications.
-Spatie: For their role and permission package.
-XAMPP: Local development environment for testing.
-Figma: For the wireframing and UI design tool.
-csharp
-Copy code
+Set up the database:
+- **Visit the application at http://localhost:8000
