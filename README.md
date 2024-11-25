@@ -103,3 +103,46 @@ Set up the database:
 
 Set up the database:
 - **Visit the application at http://localhost:8000
+
+---
+
+## 🌐 Usage
+
+- **Admin Panel: Administrators can manage roles, permissions, and data.**
+- **User Dashboard: Users can view reports, send messages, and track progress.**
+- **Forms: Complete and submit forms in various sectors.**
+- **Export Data: Download progress and reports in PDF, CSV, or Excel formats.**
+
+---
+
+## 📖 Documentation
+
+- **User Registration**: New users can register and get access based on their roles.
+- **Roles & Permissions**: Use Spatie’s role and permission system for access control.
+- **CRUD Operations**: All forms allow users to create, read, update, and delete entries.
+- **Messaging**: Secure messaging system with public and private message options.
+- **Data Visualization**: Charts for easy analysis of trends and data.
+
+---
+
+## 🛠 Contributing
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Commit your changes.
+4. Push to your fork and create a pull request.
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 🤝 Acknowledgements
+
+- **Laravel**: For providing an elegant framework for web applications.
+- **Spatie**: For their role and permission package.
+- **XAMPP**: Local development environment for testing.
+- **Figma**: For the wireframing and UI design tool.
