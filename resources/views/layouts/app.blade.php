@@ -34,46 +34,49 @@
 
     <!-- Custom JavaScript -->
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const body = document.body;
+    document.addEventListener("DOMContentLoaded", function() {
+        const body = document.body;
 
-            const images = [
-                '1.jpg',
-                '2.jpg',
-                '3.jpg',
-                '4.jpeg',
-                '5.jpg',
-                '6.jpg',
-                '7.jpg',
-                '8.png',
-                '9.png',
-                '10.png',
-                '11.jpg',
-                '12.jpg',
-                '13.jpg',
-                '1123549.jpg',
-                '1330653_login.png',
-                'background.jpg',
-                'bg-2.3.jpg',
-                'Disney.jpg'
-            ];
+        const images = [
+            '1.jpg',
+            '2.jpg',
+            '3.jpg',
+            '4.jpeg',
+            '5.jpg',
+            '6.jpg',
+            '7.jpg',
+            '8.png',
+            '9.png',
+            '12.jpg',
+            '13.jpg',
+            '1123549.jpg',
+            '1330653_login.png',
+            'background.jpg',
+            'bg-2.3.jpg',
+            'Disney.jpg'
+        ];
 
-            function setImage() {
-                const today = new Date();
-                const start = new Date(today.getFullYear(), 0, 0);
-                const diff = today - start;
-                const oneDay = 1000 * 60 * 60 * 24;
-                const dayOfYear = Math.floor(diff / oneDay);
+        function setImage() {
+            const today = new Date();
+            const start = new Date(today.getFullYear(), 0, 0);
+            const diff = today - start;
+            const oneDay = 1000 * 60 * 60 * 24;
+            const dayOfYear = Math.floor(diff / oneDay);
 
-                const index = Math.floor((dayOfYear * 24 * 60 + today.getHours() * 60 + today.getMinutes()) / 5) % images.length;
-                const imageUrl = `{{ asset('img/') }}/${images[index]}`;
-                body.style.backgroundImage = `url(${imageUrl})`;
-            }
+            const index = Math.floor((dayOfYear * 24 * 60 + today.getHours() * 60 + today.getMinutes()) / 5) % images.length;
+            const imageUrl = `{{ asset('img/') }}/${images[index]}`;
+            body.style.backgroundImage = `url(${imageUrl})`;
+            body.style.backgroundSize = 'cover';  // Ensures the image covers the entire screen
+            body.style.backgroundPosition = 'center';  // Ensures the image is centered
+            body.style.backgroundAttachment = 'fixed';  // Keeps the image fixed while scrolling
+            body.style.backgroundRepeat = 'no-repeat';  // Prevents the image from repeating
+        }
 
-            setImage();
-            setInterval(setImage, 5 * 60 * 1000); // Change image every 5 minutes
-        });
-    </script>
+        setImage();
+        setInterval(setImage, 5 * 60 * 1000); // Change image every 5 minutes
+    });
+</script>
+
 </head>
 <body>
 <div id="app">
