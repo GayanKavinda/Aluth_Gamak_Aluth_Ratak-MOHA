@@ -1,8 +1,8 @@
-# Aluth Gamak Aluth Ratak - MOHA
+# 🌍 Aluth Gamak Aluth Ratak - MOHA
 
 ### Revitalizing Sri Lanka's Rural Areas
 
-The "Aluth Gamak Aluth Ratak" program, under the Ministry of Home Affairs (MOHA), is designed to improve rural areas in Sri Lanka by integrating agriculture, infrastructure, and education. This program aims to enhance resources for farmers, improve roads, irrigation, healthcare, and education, ultimately fostering a skilled and healthy workforce. The program supports economic diversification for a sustainable and prosperous future.
+The **"Aluth Gamak Aluth Ratak"** program, under the **Ministry of Home Affairs (MOHA)**, is designed to improve rural areas in Sri Lanka by integrating agriculture, infrastructure, and education. This program aims to enhance resources for farmers, improve roads, irrigation, healthcare, and education, ultimately fostering a skilled and healthy workforce. The program supports economic diversification for a sustainable and prosperous future.
 
 ---
 
@@ -25,8 +25,7 @@ The **Performance Agreement System** ("Aluth Gamak Aluth Ratak") is built to str
 
 The system offers a dashboard for tracking progress, data sheets for detailed reporting, and messaging features for communication between stakeholders. User roles and permissions ensure secure access to information. Additionally, the system supports exporting data in **PDF**, **CSV**, and **Excel** formats for easier analysis and reporting.
 
-Key features include:
-
+### Key Features:
 - **Dashboard**: Provides an overview of key metrics and system usage.
 - **Data Sheet**: Allows for detailed reporting on various sectors.
 - **Messaging**: Send private or public messages between users.
@@ -37,7 +36,7 @@ Key features include:
 
 ## 🔧 Key Components
 
-### Forms
+### 📝 Forms
 - **Economic Form**
 - **Social Form**
 - **Poverty Alleviation Form**
@@ -48,7 +47,7 @@ Key features include:
 - **Public Expenditure Form**
 - **Other Data Submission Form**
 
-### User Management
+### 👥 User Management
 - **User Registration**
 - **Role Management**
 - **Permissions Assignment**
@@ -57,13 +56,13 @@ Key features include:
 ### CRUD Operations
 - Create, Read, Update, Delete operations are implemented for all forms and data.
 
-### Data Export
+### 📊 Data Export
 - Users can download data in **CSV**, **Excel**, and **PDF** formats.
 
-### Authentication
+### 🔒 Authentication
 - **Laravel Auth** used for user authentication and access control.
 
-### Icons
+### 🖼 Icons
 - Utilized throughout the UI for improved user experience.
 
 ---
