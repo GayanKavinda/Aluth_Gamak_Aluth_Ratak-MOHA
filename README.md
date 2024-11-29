@@ -4,6 +4,8 @@
 
 The **"Aluth Gamak Aluth Ratak"** program, under the **Ministry of Home Affairs (MOHA)**, is designed to improve rural areas in Sri Lanka by integrating agriculture, infrastructure, and education. This program aims to enhance resources for farmers, improve roads, irrigation, healthcare, and education, ultimately fostering a skilled and healthy workforce. The program supports economic diversification for a sustainable and prosperous future.
 
+![Aluth_Gamak_Aluth_Ratak-MOHA](https://github.com/GayanKavinda/Aluth_Gamak_Aluth_Ratak-MOHA/blob/main/Project%20Showcase/1.%20Home%20Page.jpeg)
+
 ---
 
 ## 🛠 Technologies Used
@@ -33,6 +35,8 @@ The system offers a dashboard for tracking progress, data sheets for detailed re
 - **History Tracking**: Super admins can view the history of changes made by users across the system.
 
 ---
+
+![Aluth_Gamak_Aluth_Ratak-MOHA](https://github.com/GayanKavinda/Aluth_Gamak_Aluth_Ratak-MOHA/blob/main/Project%20Showcase/5.%20Access%20with%20Home%20Page%20(Dash%20Board).png)
 
 ## 🔧 Key Components
 
