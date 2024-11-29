@@ -78,7 +78,7 @@
 </script>
 
 </head>
-<body>
+<body class="{{ Route::currentRouteName() === 'login' ? 'login-page' : 'default-background' }}">>
 <div id="app">
     <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm" style="position: fixed; top: 0; width: 100%; z-index: 1000;">
         <div class="container-fluid">

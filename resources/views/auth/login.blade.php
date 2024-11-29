@@ -72,6 +72,20 @@
 </div>
 @endsection
 
+<style>
+    /* Default background for all pages */
+.default-background {
+    background-image: url('{{ asset('img/8.png') }}'); /* Replace with your default image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+
+</style>
+
 <!-- 
     //Developed by G.R Gayan Kavinda Gamlath 
     //gayankavinda98v.lk@gmail.com
