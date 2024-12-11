@@ -60,7 +60,7 @@
     <span class="popuptext" id="myPopup">Hi there, Welcome to Performance Agreement. This System Developed by Gayan Kavinda (Software Engineer) IT Division in Ministry of Home Affairs. Graduate from Sri Lanka Institute of Information Technology. The System Developed Framework is Laravel v10.48.12 (PHP v8.1.25). Find more about me on <a href="https://github.com/GayanKavinda" target="_blank">GitHub</a> or <a href="https://www.linkedin.com/in/gayan-gamlath-k98/" target="_blank">LinkedIn</a>.</span>
 </div>
 
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM3+NKH6iK9zSKDlD7ww8RTDR2KLv1ktE2EKx2u" crossorigin="anonymous"></script>
 
 <script>
 // When the user clicks on the div, open the popup
