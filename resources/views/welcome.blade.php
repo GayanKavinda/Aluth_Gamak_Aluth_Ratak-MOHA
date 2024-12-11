@@ -93,7 +93,7 @@
             <!-- Call to Action Buttons with Hover Effects -->
             <div class="flex justify-center space-x-4 
                 animate-fade-in-up" style="animation-delay: 0.8s;">
-                <a href="#" class="
+                <a href="{{ route('login') }}" class="
                     px-6 py-3 
                     bg-green-600 text-white 
                     rounded-lg 
