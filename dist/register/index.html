@@ -1,0 +1,282 @@
+<!-- 
+    //Developed by G.R Gayan Kavinda Gamlath 
+    //gayankavinda98v.lk@gmail.com
+    //2024 SLIIT Internship 
+    //Ministry of Home Affairs (MOHA) 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="k8Qy7rqOvIXZbZvZo1vhTK9IyFZlnfd3Lwm4y3DU">
+    <title>MOHA Performance Agreement</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="http://localhost/img/gov-logo.png"> <!-- Update the path as needed -->
+
+    <link href="http://localhost/css/styles.css" rel="stylesheet"> <!-- Include the CSS file -->
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script type="module" src="http://[::1]:5173/@vite/client"></script><link rel="stylesheet" href="http://[::1]:5173/resources/sass/app.scss" /><script type="module" src="http://[::1]:5173/resources/js/app.js"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap JavaScript (jQuery is required) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const body = document.body;
+
+        const images = [
+            '1.jpg',
+            '2.jpg',
+            '3.jpg',
+            '4.jpeg',
+            '5.jpg',
+            '6.jpg',
+            '7.jpg',
+            '8.png',
+            '9.png',
+            '12.jpg',
+            '13.jpg',
+            '1123549.jpg',
+            '1330653_login.png',
+            'background.jpg',
+            'bg-2.3.jpg',
+            'Disney.jpg'
+        ];
+
+        function setImage() {
+            const today = new Date();
+            const start = new Date(today.getFullYear(), 0, 0);
+            const diff = today - start;
+            const oneDay = 1000 * 60 * 60 * 24;
+            const dayOfYear = Math.floor(diff / oneDay);
+
+            const index = Math.floor((dayOfYear * 24 * 60 + today.getHours() * 60 + today.getMinutes()) / 5) % images.length;
+            const imageUrl = `http://localhost/img/${images[index]}`;
+            body.style.backgroundImage = `url(${imageUrl})`;
+            body.style.backgroundSize = 'cover';  // Ensures the image covers the entire screen
+            body.style.backgroundPosition = 'center';  // Ensures the image is centered
+            body.style.backgroundAttachment = 'fixed';  // Keeps the image fixed while scrolling
+            body.style.backgroundRepeat = 'no-repeat';  // Prevents the image from repeating
+        }
+
+        setImage();
+        setInterval(setImage, 5 * 60 * 1000); // Change image every 5 minutes
+    });
+</script>
+
+</head>
+<body class="default-background">>
+<div id="app">
+    <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm" style="position: fixed; top: 0; width: 100%; z-index: 1000;">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="http://localhost">
+                <img src="http://localhost/img/gov-logo.png" alt="Logo" height="30">
+                <span class="ms-2">MOHA Performance Agreement</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Right Side Of Navbar -->
+                <ul class="navbar-nav ms-auto">
+                    <!-- Authentication Links -->
+                                                                        <li class="nav-item">
+                                <a class="nav-link" href="http://localhost/login">Login</a>
+                            </li>
+                        
+                                                    <li class="nav-item">
+                                <a class="nav-link" href="http://localhost/register">Register</a>
+                            </li>
+                                                            </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="container" style="margin-top: 60px;">
+        <!-- Main content -->
+        <main class="main-content">
+            <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">Register</div>
+
+                <div class="card-body">
+                    <form method="POST" action="http://localhost/register">
+                        <input type="hidden" name="_token" value="k8Qy7rqOvIXZbZvZo1vhTK9IyFZlnfd3Lwm4y3DU" autocomplete="off">
+                        <div class="form-group row">
+                            <label for="name" class="col-md-4 col-form-label text-md-right">Name</label>
+
+                            <div class="col-md-6">
+                                <input id="name" type="text" class="form-control " name="name" value="" required autocomplete="name" autofocus>
+
+                                                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="email" class="col-md-4 col-form-label text-md-right">Email Address</label>
+
+                            <div class="col-md-6">
+                                <input id="email" type="email" class="form-control " name="email" value="" required autocomplete="email">
+
+                                                            </div>
+                        </div>
+                        
+                        <div class="form-group row">
+                            <label for="password" class="col-md-4 col-form-label text-md-right">Password</label>
+
+                            <div class="col-md-6">
+                                <input id="password" type="password" class="form-control " name="password" required autocomplete="new-password">
+
+                                                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="password-confirm" class="col-md-4 col-form-label text-md-right">Confirm Password</label>
+
+                            <div class="col-md-6">
+                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="position" class="col-md-4 col-form-label text-md-right">Position</label>
+
+                            <div class="col-md-6">
+                                <input id="position" type="text" class="form-control " name="position" value="" required autocomplete="position">
+
+                                                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="workplace" class="col-md-4 col-form-label text-md-right">Workplace</label>
+
+                            <div class="col-md-6">
+                                <input id="workplace" type="text" class="form-control " name="workplace" value="" required autocomplete="workplace">
+
+                                                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="date_of_appointment" class="col-md-4 col-form-label text-md-right">Date of Appointment</label>
+
+                            <div class="col-md-6">
+                                <input id="date_of_appointment" type="date" class="form-control " name="date_of_appointment" value="" required autocomplete="date_of_appointment">
+
+                                                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="district" class="col-md-4 col-form-label text-md-right">District</label>
+
+                            <div class="col-md-6">
+                                <select id="district" class="form-control " name="district" required>
+                                    <option value="" disabled selected>Select your district</option>
+                                                                            <option value="Ampara">Ampara</option>
+                                                                            <option value="Anuradhapura">Anuradhapura</option>
+                                                                            <option value="Badulla">Badulla</option>
+                                                                            <option value="Batticaloa">Batticaloa</option>
+                                                                            <option value="Colombo">Colombo</option>
+                                                                            <option value="Galle">Galle</option>
+                                                                            <option value="Gampaha">Gampaha</option>
+                                                                            <option value="Hambantota">Hambantota</option>
+                                                                            <option value="Jaffna">Jaffna</option>
+                                                                            <option value="Kalutara">Kalutara</option>
+                                                                            <option value="Kandy">Kandy</option>
+                                                                            <option value="Kegalle">Kegalle</option>
+                                                                            <option value="Kilinochchi">Kilinochchi</option>
+                                                                            <option value="Kurunegala">Kurunegala</option>
+                                                                            <option value="Mannar">Mannar</option>
+                                                                            <option value="Matale">Matale</option>
+                                                                            <option value="Matara">Matara</option>
+                                                                            <option value="Monaragala">Monaragala</option>
+                                                                            <option value="Mullaitivu">Mullaitivu</option>
+                                                                            <option value="Nuwara Eliya">Nuwara Eliya</option>
+                                                                            <option value="Polonnaruwa">Polonnaruwa</option>
+                                                                            <option value="Puttalam">Puttalam</option>
+                                                                            <option value="Ratnapura">Ratnapura</option>
+                                                                            <option value="Trincomalee">Trincomalee</option>
+                                                                            <option value="Vavuniya">Vavuniya</option>
+                                                                    </select>
+
+                                                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="telephone" class="col-md-4 col-form-label text-md-right">Telephone Number</label>
+
+                            <div class="col-md-6">
+                                <input id="telephone" type="text" class="form-control " name="telephone" value="" required autocomplete="telephone">
+
+                                                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="ga_email" class="col-md-4 col-form-label text-md-right">GA Email Address</label>
+
+                            <div class="col-md-6">
+                                <input id="ga_email" type="email" class="form-control " name="ga_email" value="" required autocomplete="ga_email">
+
+                                                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="num_divisional_secretariats" class="col-md-4 col-form-label text-md-right">Number of Divisional Secretariats</label>
+
+                            <div class="col-md-6">
+                                <input id="num_divisional_secretariats" type="number" class="form-control " name="num_divisional_secretariats" value="" required autocomplete="num_divisional_secretariats">
+
+                                                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="num_village_officer_domains" class="col-md-4 col-form-label text-md-right">Number of Village Officer Domains</label>
+
+                            <div class="col-md-6">
+                                <input id="num_village_officer_domains" type="number" class="form-control " name="num_village_officer_domains" value="" required autocomplete="num_village_officer_domains">
+
+                                                            </div>
+                        </div>
+
+                        <div class="form-group row mb-0">
+                            <div class="col-md-6 offset-md-4">
+                                <button type="submit" class="btn btn-primary">
+                                    Register
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </main>
+    </div>
+    
+    <!-- Logout form -->
+    <form id="logout-form" action="http://localhost/logout" method="POST" class="d-none">
+        <input type="hidden" name="_token" value="k8Qy7rqOvIXZbZvZo1vhTK9IyFZlnfd3Lwm4y3DU" autocomplete="off">    </form>
+</div>
+</body>
+</html>

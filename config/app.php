@@ -169,6 +169,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         App\Providers\ExcelServiceProvider::class,
+        Spatie\Export\ExportServiceProvider::class,
+
     ])->toArray(),
 
     /*
